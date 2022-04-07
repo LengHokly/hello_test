@@ -29,8 +29,16 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Application'),
       ),
-      body: const Center(
-        child: Text('Center Screen Application'),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: const [
+            Text('Center Application Screen'),
+            Text('Center Application Screen'),
+            Text('Center Application Screen'),
+            Text('Center Application Screen'),
+          ],
+        ),
       ),
     );
   }
